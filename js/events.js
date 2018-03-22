@@ -1,8 +1,9 @@
-$("p").on("click", getIt(){
+$("p").on("click", getIt() {
   alert("Hey!");
 });
 
-$("img").on("load", frameIt(){
+
+$("img").on("load", frameIt() {
   img.class = "tasty";
 });
 
