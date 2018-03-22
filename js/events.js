@@ -11,7 +11,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $("input:#typing").on("keydown", function(key) {
+  $("input#typing").on("keydown", function(key) {
     if(key.which == 71) {
       alert("G");
     }
@@ -19,7 +19,7 @@ function pressIt() {
 }
 
 function submitIt() {
-  $("form").on("submit", function() {
+  $("form:input").on("submit", function() {
      alert("Your form is going to be submitted now.");
   });
 }
