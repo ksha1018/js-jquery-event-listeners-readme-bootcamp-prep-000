@@ -1,11 +1,14 @@
-$("p").on("click", getIt() {
-  alert("Hey!");
-});
+function getIt() {
+  $("p").on("click", function() {
+    alert('Hey!');
+  });
+}
 
-
-$("img").on("load", frameIt() {
-  img.class = "tasty";
-});
+function frameIt() {
+  $("img").on("load", function() {
+    img.class = "tasty";
+  });
+}
 
 
 
