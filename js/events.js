@@ -1,4 +1,10 @@
-$(p)
+$("p").on("click", getIt(){
+  alert("Hey!");
+});
+
+$("img").on("load", frameIt(){
+  
+})
 
 //define functions here
 
