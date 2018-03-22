@@ -3,8 +3,10 @@ $("p").on("click", getIt(){
 });
 
 $("img").on("load", frameIt(){
-  
+  img.class = "tasty";
 })
+
+
 
 //define functions here
 
